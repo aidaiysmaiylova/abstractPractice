@@ -26,12 +26,12 @@ public class Circle extends AbstractShape{
     @Override
     public void calculateArea(){
         int a=getA()*getB();
-        System.out.println((double) 3.14*a + ": Area");
+        System.out.println((double) 3.14*a + " : Area");
     }
 
     @Override
     public void calculatePerimeter() {
-        System.out.println(2*getA()+getB()+": Perimeter");
+        System.out.println(2*getA()+getB()+" : Perimeter");
     }
 }
 

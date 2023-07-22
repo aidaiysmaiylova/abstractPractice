@@ -37,13 +37,13 @@ public class Triangle extends AbstractShape{
     public void calculateArea() {
         double P=(getA()+getB()+getC())/2;
         double Area=P*(P-getA())*(P-getB())*(P*getC());
-        System.out.println(Math.sqrt(Area));
+        System.out.println(Math.sqrt(Area)+" : Area");
 
     }
 
     @Override
     public void calculatePerimeter() {
-        System.out.println(getA()+getB()+getC()+": Perimeter");
+        System.out.println(getA()+getB()+getC()+" : Perimeter");
 
     }
 }
