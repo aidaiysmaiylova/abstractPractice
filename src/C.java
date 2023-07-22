@@ -5,7 +5,7 @@ public class C extends BankAbstract{
 
     @Override
     public void getBalance(int i) {
-        System.out.println(150+"$");
+        System.out.println(i+"$");
 
     }
 }
